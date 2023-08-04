@@ -7,6 +7,8 @@ public class ex02 {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite um número para ser exibido no terminal:");
         int numero = entrada.nextInt();
+          int numero2 = entrada.nextInt();
+          double numero3 = entrada.nextInt(); 
         System.out.println("Número digitado é:\n" + numero);
     }
 }
