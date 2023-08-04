@@ -25,7 +25,7 @@ public class Main {
         float area_total = area_base + (area_triangulo * 4);
         float litros = area_total / metros_pintados;
 
-        int latas = (int) Math.ceil(area_total / 18);
+        int latas = (int) Math.ceil(litros / 18);
 
         int tipo_tinta = 0;
         float valor = 0;
@@ -49,7 +49,7 @@ public class Main {
         }
 
         float preco = latas * valor;
-
+        System.out.println("================================");
         System.out.println("ab: " + ab);
         System.out.println("h: " + h);
         System.out.println("a1: " + a1);
