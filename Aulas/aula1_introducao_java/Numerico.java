@@ -1,7 +1,5 @@
 package Aulas.aula1_introducao_java;
 
-import java.util.Scanner;
-
 public class Numerico {
     public static void main(String[] args) {
         int[] novo = new int[5];
